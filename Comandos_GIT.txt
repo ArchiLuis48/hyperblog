@@ -3,6 +3,12 @@ git init > inicial el git.
 git add agregar a área de preparación.
 git add. agregar a área de preparación todos los cambios que encuentre.
 
+git status > muestra mi ubicación y versión actual, sabiendo hay cambios o commit pendientes.
+git show > muestra los cambio en los que estoy actualmente (Salir con Q).
+git log > muestra lista de versiones realizadas.
+git log --stat > muestra los cambios realizados.
+
+
 git commit > enviamos todos lo del stageng al repositorio.
 git commit -m > enviamos todos lo del stageng con un comentario.
 git commit -a hacer el guardado automaticamente de todos los cambios (solo a archivos ya add anteriormente).
@@ -17,6 +23,12 @@ git clone url > trae los archivos l directorio local.
 git fetch > trae una copia local, pero no lo copia en mis archivos.
 git merge > copia a mis archivos.
 git pull  > copia a local, bd de cambios y el directorio.
+
+
+git branch > creo una nueva rama.
+git checkout nombre > me ubico en la rama que cree.
+ 
+
 
 Algunos comandos que pueden ayudar cuando colaboren con proyectos muy grandes de github:
 
